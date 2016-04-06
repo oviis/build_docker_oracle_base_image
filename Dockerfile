@@ -5,7 +5,7 @@
 FROM wnameless/oracle-xe-11g
 
 # File Author / Maintainer
-MAINTAINER Ovi Isai <ovidiu.isai@gmail.com>
+MAINTAINER Ovi oviis <mischovi@yahoo.de>
 
 ###########################################################
 ###
@@ -14,11 +14,11 @@ MAINTAINER Ovi Isai <ovidiu.isai@gmail.com>
 #  and on run time the OracleServer will  be started and ALL sqlscripts will be executed
 ### 
 ### building
-#  docker build -t hub.docker.com/isai/oracle-xe-11g:sqlexampleV1 .
+#  docker build -t hub.docker.com/oviis/oracle-xe-11g:sqlexampleV1 .
 ### push
-# docker push hub.docker.com/isai/oracle-xe-11g:sqlexampleV1
+# docker push hub.docker.com/oviis/oracle-xe-11g:sqlexampleV1
 ### run
-# docker run -tid hub.docker.com/isai/oracle-xe-11g:sqlexampleV1
+# docker run -tid hub.docker.com/oviis/oracle-xe-11g:sqlexampleV1
 ############################################################
 
 WORKDIR /tmp

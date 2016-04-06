@@ -54,7 +54,7 @@ The sqlfiles should be ONLY ONE file in &quot;.zip&quot; format!!!</description>
     <org.jenkinsci.plugins.dockerbuildstep.DockerBuilder plugin="docker-build-step@1.34">
       <dockerCmd class="org.jenkinsci.plugins.dockerbuildstep.cmd.CreateImageCommand">
         <dockerFolder>$WORKSPACE</dockerFolder>
-        <imageTag>hub.docker.com/isai/oraclexe11g:$dockerBaseName</imageTag>
+        <imageTag>hub.docker.com/oviis/oraclexe11g:$dockerBaseName</imageTag>
         <noCache>false</noCache>
         <rm>true</rm>
       </dockerCmd>
@@ -64,7 +64,7 @@ The sqlfiles should be ONLY ONE file in &quot;.zip&quot; format!!!</description>
         <dockerRegistryEndpoint plugin="docker-commons@1.3.1">
           <url>https://hub.docker.com/</url>
         </dockerRegistryEndpoint>
-        <image>hub.docker.com/isai/oraclexe11g</image>
+        <image>hub.docker.com/oviis/oraclexe11g</image>
         <tag></tag>
         <registry></registry>
       </dockerCmd>
